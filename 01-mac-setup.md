@@ -51,7 +51,7 @@ asdf install erlang latest
 >  (Optional) If you encounter Java dependency problem (due to [kerl](https://github.com/kerl/kerl)), you can install Java first, then install Erlang:
 
 ```sh
-brew cask install java
+brew cask install adoptopenjdk
 ```
 
 > OR you can skip Java dependency by referring this [Github issue](https://github.com/asdf-vm/asdf-erlang/issues/58).
